@@ -54,6 +54,13 @@ and build scripts for anyone who wants to reproduce or extend the work.**
 ## License and provenance
 
 The code in this repo (build scripts, training pipeline) is [MIT-licensed](LICENSE).
+
+**Use it freely** — the dictionary and voice model are free to download, use, and
+redistribute. You're also welcome to **enhance them**: fine-tune the model further,
+rebuild the dictionary with your own corpora, or fork the whole pipeline. The
+training scripts in [`voice/scripts/`](voice/scripts/) and the build scripts in
+[`dictionary/`](dictionary/) are the exact ones used to produce the released
+artifacts, so you can reproduce or improve on everything from scratch.
 The data and models are assembled from several sources with their own terms —
 being upfront about this matters more than a blanket license statement:
 
