@@ -55,10 +55,17 @@ and build scripts for anyone who wants to reproduce or extend the work.**
 
 The code in this repo (build scripts, training pipeline) is [MIT-licensed](LICENSE).
 
-**Use it freely** — the dictionary and voice model are free to download, use, and
-redistribute. You're also welcome to **enhance them**: fine-tune the model further,
-rebuild the dictionary with your own corpora, or fork the whole pipeline. The
-training scripts in [`voice/scripts/`](voice/scripts/) and the build scripts in
+**The dictionary and voice model are licensed under [CC BY 4.0](LICENSE-MODELS.md)**
+(Creative Commons Attribution 4.0 International). They are free to download, use,
+redistribute, and enhance — **as long as you credit the author**. If you use, share,
+or build on these artifacts, you must mention:
+
+> **Ahmed Gomaa** (github.com/ahmedgomaaa) — «Egyptian Arabic dictionary and voice
+> model by Ahmed Gomaa, CC BY 4.0», with a link to this repository.
+
+You're welcome to fine-tune the model further, rebuild the dictionary with your own
+corpora, or fork the whole pipeline. The training scripts in
+[`voice/scripts/`](voice/scripts/) and the build scripts in
 [`dictionary/`](dictionary/) are the exact ones used to produce the released
 artifacts, so you can reproduce or improve on everything from scratch.
 The data and models are assembled from several sources with their own terms —

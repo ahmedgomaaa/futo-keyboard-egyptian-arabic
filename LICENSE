@@ -23,6 +23,11 @@ SOFTWARE.
 ---
 
 This license covers the code (build scripts, training pipeline) in this
-repository. The dictionary and voice model artifacts are assembled from
-several data sources with their own terms — see the "License and provenance"
-section of the README for details.
+repository.
+
+The dictionary and voice model artifacts are released under **Creative Commons
+Attribution 4.0 International (CC BY 4.0)** — see LICENSE-MODELS.md for the
+full terms. Using, sharing, or building on them requires crediting Ahmed Gomaa
+(github.com/ahmedgomaaa). The artifacts are assembled from several data
+sources with their own terms — see the "License and provenance" section of the
+README for details.
