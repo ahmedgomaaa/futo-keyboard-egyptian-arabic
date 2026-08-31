@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Training / scratch artifacts (never in git)
+*.log
+*.pt
+*.ckpt
+checkpoint-*/
+wandb/
+
+# Large model binaries belong in GitHub Releases, not git
+*.bin
+
+# OS noise
+.DS_Store
+Thumbs.db
